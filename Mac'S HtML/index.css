@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+  	background-color: none;
+  	padding: 0;
+  	margin: 0; 
+  }
+
+ p {
+ 	width: 600px;
+ 	height: 100px;
+ 	padding-top: 20px;
+ } 
+ h2 {
+ 	font-weight: bolder;
+ }
+ a {
+ 	text-decoration: none;
+ }
+  /*--------First Section----------*/
+.container1{
+
+	padding-top: 1px;
+	padding-left: 10px;
+	margin: 0px;
+	border-top: none;
+	background-color: #00001a;
+	height: 400px;
+	width: 65%;
+}
+
+.intro {
+	color: white;
+	margin: 120px;
+	font-size: 1.5rem;
+}
+
+h1 {
+	color: yellow;
+}
+.mypic {
+	position: absolute;
+	left: 40%;
+	top: 0%;
+	zoom: 250%;
+
+
+	
+} 
+#yello {
+	background-color: yellow;
+		    padding-bottom: 1px;
+		  	opacity: 20%;
+		  	width: 35%;
+		  	height: 400px;
+		  	position: absolute;
+		  	top: 0%;
+		  	left: 65%;
+}
+
+
+
+.btn1 a:link, .btn1 a:visited {
+	position: absolute;
+	margin-top: 20px;
+	padding-top: 14px;
+	text-decoration: none;
+	background-color: none;
+	border: 1px solid orange;
+	color: orange;
+	display: block;
+	width: 180px;
+	height: 50px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.btn2 a:link, .btn2 a:visited {
+	margin-top: 20px;
+	padding-top: 14px;
+	text-decoration: none;
+	background-color: orange;
+	border: 1px solid yellow;
+	color: white;
+	display: block;
+	width: 180px;
+	height: 50px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.btn1 a:hover, .btn1 a:active {
+
+		background-color: black;
+		color: yellow;		
+	    cursor: pointer;
+} 
+.btn2 a:hover, .btn2 a:active {
+
+		background-color: blue;
+		color: yellow;		
+	    cursor: pointer;
+} 
+/*----------Second Section-----------*/
+
+.container2 {
+	position: relative;
+	border-top: none;
+	background-color: #1a000d;
+	height: 400px;
+	width: 100%;
+}
+
+.overlapBox{
+	padding-top: 0px;
+	padding-left: 0px;
+	border: 5px solid darkgray;
+	margin-bottom: 15px; 
+	position: absolute;
+	left: 22%;
+	top: 15%;
+	background-color: white;
+}
+
+.underlapBox {
+	padding-top: 200px;
+	padding-left: 150px;
+	border: 5px solid orange;
+	margin-bottom: 15px; 
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+
+#content {
+	padding: 5px;
+	position: relative;
+	width: 600px;
+ 	height: 200px;
+ 	left: 40%;
+ 	top: 10%;
+ 	color: white;
+}
+#cnt2 a {
+	left: 40%;
+	top: 134%;
+}
+/*----------Third Section-----------*/
+
+.container3 {
+
+	/*padding-top: 0px;
+	padding-left: 0px;*/
+	margin: 0px;
+	border-top: none;
+	width: 100%
+	height: 200px;
+	position: relative;
+	background-color: #001a11;
+
+
+}
+
+.content3 {
+	padding: 50px;
+	position: relative;
+	width: 600px;
+ 	height: 100%;
+ 	left: 10%;
+ 	top: 20%;
+ 	color: white;
+ 	
+}
+
+.blueBox {
+	margin-bottom: 10px;
+	padding: 50px;
+	background-color: lightblue;
+	position: absolute;
+	left: 100px
+	top: 0px;
+	height: 200px;
+	width: 300px;
+	color: white;
+	border-radius: 10px;
+}
+.yellowBox{
+	margin-bottom: 10px;
+	padding: 50px;
+	background-color: orange;
+	position: relative;
+	left: 62%;
+	height: 200px;
+	width: 300px;
+	color: white;
+	border-radius: 10px;
+
+}
+.magntaBox{
+	margin-bottom: 10px;
+	padding: 50px;
+	background-color: magenta;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	color: white;
+	border-radius: 10px;
+}
+.greenBox{	
+	color: white;
+	margin-bottom: 10px;
+	padding: 50px;
+	background-color: green;
+	height: 200px;
+	width: 300px;
+	position: relative;
+	left: 62%;
+	border-radius: 10px;
+	/*top: 193%;*/
+	}
+.boxImage {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	opacity: 20%;
+
+}
